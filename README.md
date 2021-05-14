@@ -1,6 +1,31 @@
 # agile-engine
 
-## Project setup
+# Author: Silva Flores José Carlos
+
+## Pre-requisitos
+
+### Instalation nodeJS:
+```
+sudo apt-get update
+sudo apt-get install nodejs
+```
+If version nodeJS is not update:
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
+
+### Instalation npm:
+```
+sudo apt-get update
+sudo apt-get install npm
+```
+If version npm no is not update:
+```
+sudo npm install npm@latest -g
+
+## 1. Project setup
 ```
 npm install
 ```
@@ -10,15 +35,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
